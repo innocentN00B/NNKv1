@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NeverNotKnitting</string>
+    <string name="currentproject_button">CURRENT PROJECT</string>
+    <string name="browserecipes_button">BROWSE RECIPES</string>
+    <string name="guidance_button">GUIDANCE</string>
+    <string name="myprojects_button">MY PROJECTS</string>
+
+    <string name="title_browse">RECIPES</string>
+    <string name="title_guidance">GUIDANCE</string>
+    <string name="title_current">CURRENT PROJECT</string>
+
+    <string name="button_addToMyProject">VIEW RECIPE</string>
+
+    <string name="alert_dialog">Do you wanna view this recipe?</string>
+
+    <string name="youtube_title">Knitting for beginners</string>
+
+</resources>

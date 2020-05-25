@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/fragment_frontpage"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="200dp"
+            android:maxHeight="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nevernotknitting"
+            android:paddingBottom="20dp"/>
+
+
+        <Button
+            android:id="@+id/browseRecipes"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/buttons"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/browserecipes_button"
+            android:textColor="@color/fontColor" />
+
+        <Button
+            android:id="@+id/guidance"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/guidance_button"
+            android:textColor="@color/fontColor" />
+
+</LinearLayout>
